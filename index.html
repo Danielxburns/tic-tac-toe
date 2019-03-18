@@ -4,7 +4,7 @@
     <title>Tic Tac Toe</title>
   </head>
   <body>
-    <h1 style="width: 300px; text-align: center">Tic Tac Toe</h1>
+    <h1 id="board" style="width: 300px; text-align: center">Tic Tac Toe</h1>
     <div>
       <table style="width: 300px; text-align: center;  font-size: xx-large; font-weight: bolder ;border:1px solid black; border-collapse: collapse">
         <tr style="height: 100px">
@@ -23,6 +23,10 @@
           <td style="border:1px solid black;">X</td>
         </tr>
       </table>
+    </div>
+    <div id="winner"></div>
+    <div style="width: 300px; margin: 30px 0px ; text-align: center">
+      <button id="button" style="text: ">Play again</button>
     </div>
     <script src="app.js"></script>
   </body>
