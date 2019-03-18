@@ -31,5 +31,11 @@ var piece = function(sq) {
   }
 };
 
+
 // reset game when play again button is clicked
+var reset = document.querySelector('button');
+button.addEventListener('click', (e) => {
+  var gameSquares = Array.from(document.getElementsByTagName('td'));
+  gameSquares.forEach((item) => item.innerHTML = '')
+});
 // keep track of game play and implement rules
